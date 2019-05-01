@@ -1,0 +1,39 @@
+//META{"name":"YdragTheme","description":"Um Tema criado pelo Ydrag#2825.","author":"Ydrag","version":"1"}*//{}
+
+/* "YdragTheme v1" by Ydrag */
+
+/* IMPORT CSS FROM GITHUB */
+@import url(https://zerthox.github.io/ClearVision/css/ClearVision_v5.min.css);
+@import url(https://autumnclove.github.io/Winter-Wonderland-BD-Theme/Winter_Wonderland_min.css);
+@import url(https://intrnl.github.io/discordcustomizations/titlebarRevert/dist/themefile.css);
+@import url(https://satoru8.github.io/FullSizePfp/FullSizePfp.css);
+
+:root {
+    --hover-color: violet;
+    --main-color: hsla(265, 100%, 50%, 1);
+    --background-blur: 0px;
+    --background-brightness: 100%;
+}
+body::after,
+.backdrop-1ocfXc,
+.userPopout-11hFKo::before,
+.userPopout-3XzG_A::before,
+.root-SR8cQa::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash,
+.radio-theme.light label,
+.radio-theme.dark label {
+	background: url(https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/96100/f400290347611bd57a63728d10bc87131ad0d8a9.jpg) !important;
+}
+
+/* home icon */
+[class*="theme-"] .homeIcon-1FoKUJ, .homeIcon-1FoKUJ:hover {
+    background-image: url(https://i.imgur.com/GyLtum1.png) !important;
+}
+
+/* user pop outs */
+.userPopout-3XzG_A {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/96100/f400290347611bd57a63728d10bc87131ad0d8a9.jpg) center/cover !important;
+}
